@@ -1,0 +1,52 @@
+digraph {
+	MLCA
+	MLCA -> data
+	MLCA -> lecture
+	MLCA -> notebook
+	MLCA -> "информация о курсе.pdf"
+	MLCA -> "итоговый тест.pdf"
+	MLCA -> "ответы.pdf"
+	MLCA -> "файловый указатель.pdf"
+	data
+	data -> "data_for_analysis.dta"
+	data -> "desktop.ini"
+	data -> "labeledTrainData.tsv"
+	data -> "RegularSeasonCompactResults.csv"
+	data -> "test.csv"
+	data -> "train.csv"
+	data -> "WAG_C_M.csv"
+	lecture
+	lecture -> "1_intro.pptx"
+	lecture -> "2_classification.pptx"
+	lecture -> "3_clustering.pptx"
+	lecture -> "4_time_series.pptx"
+	lecture -> "5_nlp.pptx"
+	lecture -> "6_nn.pptx"
+	lecture -> "desktop.ini"
+	notebook
+	notebook -> ".ipynb_checkpoints"
+	notebook -> "1_basics, numpy, pandas in Python.ipynb"
+	notebook -> "1_visualisation.ipynb"
+	notebook -> "2_classification.ipynb"
+	notebook -> "3_clustering.ipynb"
+	notebook -> "4_arima_forecast.ipynb"
+	notebook -> "5_nlp_base.ipynb"
+	notebook -> "5_nlp_word2vec.ipynb"
+	notebook -> "6_nn.ipynb"
+	notebook -> "Clusters.png"
+	notebook -> "desktop.ini"
+	notebook -> "Table.png"
+	".ipynb_checkpoints"
+	".ipynb_checkpoints" -> "1_Basics, numpy, pandas in Python-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "1_Visualisation-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "2_classification-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "3_clustering-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "4_-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "4_ARIMA_forecast-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "5_NLP_base-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "5_NLP_word2vec-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "6_nn-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "Decision_trees-checkpoint.ipynb"
+	".ipynb_checkpoints" -> "desktop.ini"
+	".ipynb_checkpoints" -> "Random_Forest-checkpoint.ipynb"
+}
